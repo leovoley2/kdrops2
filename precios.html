@@ -1,212 +1,206 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>Kdrops-precios</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=" corpoacion kdrops">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/biotin.css">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Document</title>
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
 
-    
-
-    
-
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
+    }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
 
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
 
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
 
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
 
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
 
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="product.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<header class="site-header sticky-top py-1">
-  <nav class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2" href="/index.html" aria-label="Product">
-      <img src="/img/logo.png" alt="" style="width: 150px;">
-    </a>
-    <a class="py-2 d-none d-md-inline-block text-white" href="/index.html">Volver a Inicio</a>
-    
-  </nav>
-</header>
-<a href="#" class="btn-whap" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-    class="fab fa-whatsapp"></i></a> 
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content">
-          <div class="modal-header">
-              <h5 class="modal-title text-uppercase bold fs-2" id="exampleModalLabel">Nuestra linea de contactos</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-              <h4 class="text-center fs-1">Asesores Autorizados</h4>
-              <a  class="fs-1 bold text-uppercase text-decoration-none" href="https://api.whatsapp.com/send?phone=573222633767&text=Bienvenido%20a%20la%20familia%20Kdrops;%20indique%20¿como%20podemos%20ayudarle?"
-                  target="_blank">Mayela Fuenmayor
-              <br>
-              </a>
-              <a class="fs-1 text-uppercase text-decoration-none" href="https://api.whatsapp.com/send?phone=573204067052&text=Bienvenido%20a%20la%20familia%20Kdrops;%20indique%20¿como%20podemos%20ayudarle?"
-                  target="_blank">Angie
-                  Zambrano 
-              </a>
-              <br>
-          </div>
-          <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          </div>
-      </div>
-  </div>
-</div> 
-
-<main>
-  <div class=" imagen position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-    <div class="col-md-5 p-lg-5 mx-auto my-5 ">
-      <h1 class="display-4 fw-normal text-white">Distribuidores Oficiales</h1>
-    </div>
-  </div>
-
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 fondo">
-    <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5 text-white fw-bold">Mexico</h2>
-        <p class="lead text-white fw-bolder">1 tratamiento (3 Kdrops) 3000 pesos. <br>2 tratamientos (6 Kdrops) por 5000 mil
-            pesos.</p>
-      </div>
-      <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/mexico.jpg" alt=""></div>
-    </div>
-    <div class="colombia me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5 fw-bold">Colombia</h2>
-        <p class="lead fw-bolder">tratamiento de (1 Kdrops) por 50 mil pesos. <br>tratamientos de (3 Kdrops)por 120 mil
-            pesos.</p>
-      </div>
-      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/colombia.jpg" alt=""></div>
-    </div>
-  </div>
-
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden estados">
-      <div class="my-3 p-3">
-        <h2 class="display-5 text-white fw-bold">Estados Unidos</h2>
-        <p class="lead text-white fw-bolder">1 tratamiento (3 Kdrops) en 120 dólares</p>
-      </div>
-      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/usa.jpg" alt=""></div>
-    </div>
-    <div class=" peru text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3 ">
-        <h2 class="display-5 text-white fw-bold">Peru</h2>
-        <p class="lead text-white fw-bolder">1 tratamiento ( 3 Kdrops) está en 175 soles. <br> 2 tratamientos (6 Kdrops ) por 300
-            Soles.</p>
-      </div>
-      <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/peru.jpg" alt=""></div>
-    </div>
-  </div>
-
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class=" espana bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5 fw-bold">España</h2>
-        <p class="lead fw-bolder">1 tratamiento (3 Kdrops) por 120€.</p>
-      </div>
-      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/españa.jpg" alt=""></div>
-    </div>
-    <div class=" chile bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5 text-white fw-bold">Chile</h2>
-        <p class="lead text-white fw-bolder"> 1 tratamiento (3 Kdrops) por tan solo 75 mil
-            pesos chilenos. <br> 2 tratamientos completos (6 Kdrops) por tan
-            solo 130 mil pesos chilenos.</p>
-      </div>
-      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/chile.jpg" alt=""></div>
-    </div>
-  </div>
-
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class=" ecuador bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h2 class="display-5 text-white fw-bold">Ecuador</h2>
-        <p class="lead text-white fw-bolder">1 tratamiento (3 Kdrops) por tan solo 80$. <br>2 tratamientos (6 Kdrops) por tan solo
-            130$.</p>
-      </div>
-      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/ecuador-gf61da10aa_1920.jpg" alt=""></div>
-    </div>
-    <div class=" panama bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5 text-white fw-bold">Panama</h2>
-        <p class="lead text-white fw-bolder">Tratamiento de (3 Kdrops) por tan solo 80$.</p>
-      </div>
-      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/panama-g6b0fe691e_1920.jpg" alt=""></div>
-    </div>
-  </div>
-</main>
-<footer  class="py-4 p-4 bg-dark">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="col">
-              <p class="text-white text-center fs-4">Todos los derechos reservados - 2022</p>
+  
+  <!-- Custom styles for this template -->
+  <link href="product.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header sticky-top py-1">
+    <nav class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="/index.html" aria-label="Product">
+        <img src="/img/logo.png" alt="" style="width: 150px;">
+      </a>
+      <a class="py-2 d-none d-md-inline-block text-white" href="/index.html">Volver a Inicio</a>
+      
+    </nav>
+  </header>
+  <a href="#" class="btn-whap" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+      class="fab fa-whatsapp"></i></a> 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-uppercase bold fs-2" id="exampleModalLabel">Nuestra linea de contactos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-          </div>
+            <div class="modal-body">
+                <h4 class="text-center fs-1">Asesores Autorizados</h4>
+                <a  class="fs-1 bold text-uppercase text-decoration-none" href="https://api.whatsapp.com/send?phone=573222633767&text=Bienvenido%20a%20la%20familia%20Kdrops;%20indique%20¿como%20podemos%20ayudarle?"
+                    target="_blank">Mayela Fuenmayor
+                <br>
+                </a>
+                <a class="fs-1 text-uppercase text-decoration-none" href="https://api.whatsapp.com/send?phone=573204067052&text=Bienvenido%20a%20la%20familia%20Kdrops;%20indique%20¿como%20podemos%20ayudarle?"
+                    target="_blank">Angie
+                    Zambrano 
+                </a>
+                <br>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
     </div>
-    
-   </footer>
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  </div> 
+  
+  <main>
+    <div class=" imagen position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5 ">
+        <h1 class="display-4 fw-normal text-white">Distribuidores Oficiales</h1>
+      </div>
+    </div>
+  
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 fondo">
+      <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5 text-white fw-bold">Mexico</h2>
+          <p class="lead text-white fw-bolder">1 tratamiento (3 Kdrops) 3000 pesos. <br>2 tratamientos (6 Kdrops) por 5000 mil
+              pesos.</p>
+        </div>
+        <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/mexico.jpg" alt=""></div>
+      </div>
+      <div class="colombia me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5 fw-bold">Colombia</h2>
+          <p class="lead fw-bolder">tratamiento de (1 Kdrops) por 50 mil pesos. <br>tratamientos de (3 Kdrops)por 120 mil
+              pesos.</p>
+        </div>
+        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/colombia.jpg" alt=""></div>
+      </div>
+    </div>
+  
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden estados">
+        <div class="my-3 p-3">
+          <h2 class="display-5 text-white fw-bold">Estados Unidos</h2>
+          <p class="lead text-white fw-bolder">1 tratamiento (3 Kdrops) en 120 dólares</p>
+        </div>
+        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/usa.jpg" alt=""></div>
+      </div>
+      <div class=" peru text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3 ">
+          <h2 class="display-5 text-white fw-bold">Peru</h2>
+          <p class="lead text-white fw-bolder">1 tratamiento ( 3 Kdrops) está en 175 soles. <br> 2 tratamientos (6 Kdrops ) por 300
+              Soles.</p>
+        </div>
+        <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/peru.jpg" alt=""></div>
+      </div>
+    </div>
+  
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class=" espana bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5 fw-bold">España</h2>
+          <p class="lead fw-bolder">1 tratamiento (3 Kdrops) por 120€.</p>
+        </div>
+        <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/españa.jpg" alt=""></div>
+      </div>
+      <div class=" chile bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5 text-white fw-bold">Chile</h2>
+          <p class="lead text-white fw-bolder"> 1 tratamiento (3 Kdrops) por tan solo 75 mil
+              pesos chilenos. <br> 2 tratamientos completos (6 Kdrops) por tan
+              solo 130 mil pesos chilenos.</p>
+        </div>
+        <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/chile.jpg" alt=""></div>
+      </div>
+    </div>
+  
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class=" ecuador bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5 text-white fw-bold">Ecuador</h2>
+          <p class="lead text-white fw-bolder">1 tratamiento (3 Kdrops) por tan solo 80$. <br>2 tratamientos (6 Kdrops) por tan solo
+              130$.</p>
+        </div>
+        <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/ecuador-gf61da10aa_1920.jpg" alt=""></div>
+      </div>
+      <div class=" panama bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5 text-white fw-bold">Panama</h2>
+          <p class="lead text-white fw-bolder">Tratamiento de (3 Kdrops) por tan solo 80$.</p>
+        </div>
+        <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img class="img-fluid" src="/img/panama-g6b0fe691e_1920.jpg" alt=""></div>
+      </div>
+    </div>
+  </main>
+  <footer  class="py-4 p-4 bg-dark">
+      <div class="container">
+          <div class="row justify-content-between">
+              <div class="col">
+                <p class="text-white text-center fs-4">Todos los derechos reservados - 2022</p>
+              </div>
+            </div>
+      </div>
+      
+     </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script src="/js/modernize.js">
 
